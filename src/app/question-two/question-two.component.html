@@ -1,0 +1,66 @@
+<div class="my-2 mx-2">
+  <button mat-raised-button routerLink="/home">
+    <mat-icon>arrow_back</mat-icon>Go Back To Home
+  </button>
+  <br /><br />
+  <mat-card class="my-crad">
+    <h3>Q-2.1 What is the difference between imports, declarations, and providers?</h3>
+    <p> <b>Answer:</b> &nbsp;&nbsp; imports, declarations, and providers are the NgModule metadata.</p>
+    <table cellspacing="0" class="my-table">
+      <tr>
+        <th>Imports</th>
+        <th>Declaration</th>
+        <th>providers</th>
+      </tr>
+      <tr>
+        <td>1.It Declares which components, directives, and pipes belong to the module.</td>
+        <td>1.Used For Importing other modules with the components, directives, and pipes that components in the
+          current module need.</td>
+        <td>1.It Provides services that the other application components can use.</td>
+      </tr>
+    </table>
+  </mat-card>
+  <br /><br />
+  <mat-card class="my-crad">
+    <h3>Q-2.2 What is the difference between components, directives, models, modules, and services?</h3>
+    <p> <b>Answer:</b> &nbsp;&nbsp; </p>
+    <table cellspacing="0" class="my-table">
+      <tr>
+        <th>Components</th>
+        <th>Services</th>
+        <th>Directives</th>
+        <th>Modules</th>
+        <th>Models</th>
+      </tr>
+      <tr>
+        <td>1.Components define views, which are sets of screen elements that Angular can choose among and modify
+          according to your program logic and data.
+          Every Angular application has at least one component, the root component that connects a component hierarchy
+          with the page document object model (DOM). Each component defines a class that contains application data and
+          logic, and is associated with an HTML template that defines a view to be displayed in a target environment.
+        </td>
+        <td>1.
+          Service is a broad category encompassing any value, function, or feature that an app needs. A service is
+          typically a class with a narrow, well-defined purpose. It should do something specific and do it well.
+
+          Angular distinguishes components from services to increase modularity and reusability. By separating a
+          component's view-related functionality from other kinds of processing, you can make your component classes
+          lean and efficient.</td>
+        <td>1.Marks a class as an Angular directive. You can define your own directives to attach custom behavior to
+          elements in the DOM. The options provide configuration metadata that determines how the directive should be
+          processed, instantiated and used at runtime.</td>
+        <td>1.Angular NgModules differ from and complement JavaScript (ES2015) modules. An NgModule declares a
+          compilation context for a set of components that is dedicated to an application domain, a workflow, or a
+          closely related set of capabilities. An NgModule can associate its components with related code, such as
+          services, to form functional units.</td>
+        <td>1.Models in Angular; using objects which hold your data may be pretty useful. It makes the developer live
+          significantly easier - so let me show you what I'm talking about and how I handle models in Angular.<br/>
+          <b>export class Student (
+            id: number;
+            name: string;
+          )</b>
+        </td>
+      </tr>
+    </table>
+  </mat-card>
+</div>

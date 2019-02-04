@@ -1,0 +1,25 @@
+.box-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 500px;
+    height: 300px;
+    align-items: center;
+}
+.my-card{
+    align-items:center;
+    height: 100%; 
+}
+.my-card h2{
+    text-align: center;
+}
+.my-card button{
+    width: 80%;
+    margin: 2rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
